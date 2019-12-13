@@ -1,59 +1,81 @@
 <!DOCTYPE html>
 <html>
 <head>
-<!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">-->
-	<title></title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	 
+<title></title>
 	<style>
 	#div-container{
 			border: 10px solid black;
-			width: 60%;
-			padding: 370px;
+			width: 100%;
+			padding: 150px;
 			text-align: center;
-			margin: -8px;
+			margin: 0px;
 			background-color: rgb(33, 65, 248);
 			
 	}
 	h1{
+		color:black
+	}
+	h3{
 		color:white
 	}
 	
 </style>
+
 </head>
 <body>
 		<div id="div-container">
 			<h1 class="txt-center" >Hello User!<br></br> Welcome to Memetastic</h1>
-			
-		<div class="container mx-auto col-md-4">
+		
+			<div class="container mx-auto col-md-4">
+				<h3 class=" text-center my-4">Please enter a number between 0-99</h3>
+				<div class="input-group my-4 text-center text-muted">
+						<input type="text" id="input-meme" placeholder="Enter Number" class="form-control p-4">
+						<div class="input-group-append">
+								<button type="button" class="btn btn-primary" id="submit-btn">Go</button>
+						</div>
+				</div>
+				<div class="card" id="card-data">
+						<h3 id="name-h3"></h3>
+					<img id="img-meme" class="icon mx-auto text-center" src="" width="250px">
+						</div>
+					</div>
+				</div>
+			</div>
+
+		<!-- <div class="container mx-auto col-md-4">
         	<div class="input-group my-4 text-center text-muted">
         <h3><em>Please enter a number between 0-99</em></h3>
-        <input type="text" id="input-meme" placeholder="Enter Number Here" class="form-control p-4"><br></br>
+        <input type="text" id="input-meme" placeholder="Enter Number" class="form-control p-4">
         <div class="input-group-append">
 		
-			<button type="button" class="btn btn-primary" id="submit-btn">Meme Generator</button> 
-			<br></br>
+			<br><button type="button" class="btn btn-primary" id="submit-btn"><br>Meme Generator</button> 
+			</br>
 		
                         </div>
                     </div>
 					</div>
-								
-        <div class="card" id="card-data">
+				-->	
+        <!-- <div class="card" id="card-data">
 		<h3 id="name-h3"></h3>
 
         <img id="img-meme" src="" width="250px"/>
         </div>
-	</div>
-    
-    
+	</div> -->
+     
 		<script 
 		src="https://code.jquery.com/jquery-3.4.1.js"
 		integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
 		crossorigin="anonymous"></script>
 
 
-<!-- 		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script> -->
 		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-		 -->
+		
+
 	<script type="text/javascript">
 		$(document).ready(function(){  
 			$('#card-data').hide();
