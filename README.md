@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<html>
 <html>
 <head>
 		<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">-->
@@ -21,7 +21,7 @@
 </head>
 <body>
 		<div id="div-container">
-			<h1 class="txt-center" >Hello User!<br></br> Welcome to Memetastic</h1>
+			<h1 class="txt-center" >Hello User! Welcome to Memetastic</h1>
 			
 		<div class="container mx-auto col-md-4">
         	<div class="input-group my-4 text-center text-muted">
